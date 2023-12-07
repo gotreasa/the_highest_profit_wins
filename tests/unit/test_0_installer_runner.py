@@ -24,3 +24,8 @@ def describe_dummy_kata():
     def should_get_max_and_min_for_2334454_5():
         """🧪 should say the maximum is 2334454 and minimum is 5 for input [2334454,5]"""
         assert min_max_profit.min_max([2334454, 5]) == [5, 2334454]
+
+    def should_error_when_list_does_not_contain_numbered_list():
+        """🧪 should error saying that the input must be a numbered list for input ['blah']"""
+        with pytest.raises(ValueError, match="Input must be a numbered list"):
+            min_max_profit.min_max(["blah"])
