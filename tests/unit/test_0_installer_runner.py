@@ -12,3 +12,7 @@ def describe_dummy_kata():
     def should_get_max_and_min_for_1():
         """🧪 should say the maximum is 1 and minimum is 1 for input [1]"""
         assert min_max_profit.min_max([1]) == [1, 1]
+
+    def should_get_max_and_min_for_2():
+        """🧪 should say the maximum is 2 and minimum is 2 for input [2]"""
+        assert min_max_profit.min_max([2]) == [2, 2]
