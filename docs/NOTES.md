@@ -16,3 +16,4 @@
 - ✅ should say the maximum is 5 and minimum is 1 for input [1,2,3,4,5]
 - ✅ should say the maximum is 2334454 and minimum is 5 for input [2334454,5]
 - ✅ should error saying that the input must be a numbered list for input ['blah']
+- 🚧 figure out the pipeline error
